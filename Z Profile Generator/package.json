@@ -1,0 +1,32 @@
+{
+    "name": "template-engine",
+    "version": "1.0.0",
+    "description": "Software engineering team generator command line application.",
+    "main": "app.js",
+    "directories": {
+      "lib": "lib",
+      "test": "test"
+    },
+    "scripts": {
+      "test": "jest --verbose test/*"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kiananaik/Template-Engine.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kiananaik/Template-Engine/issues"
+    },
+    "homepage": "https://github.com/kiananaik/Template-Engine",
+    "dependencies": {
+      "inquirer": "^6.3.1",
+      "json-placeholder-replacer": "^1.0.35",
+      "path": "^0.12.7"
+    },
+    "devDependencies": {
+      "jest": "^24.8.0"
+    }
+  }
+  
